@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(white, #0345fc);
+    /*background-color: linear-gradiant(white, #0345fc);*/
+    /*background-image: url(backdrop.jpg);*/
+    
+    background-size: cover;
+    margin: auto;
+    max-width: 1650px;
+}
+
+h1{
+    text-align: center ;
+    font-size: 18px;
+}
+/*header*/
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1650px;
+    min-height: 200px;
+    overflow: hidden;
+}
+.headerBackground{  
+    max-width: 1650px;
+}
+
+.headerBackground img{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-width: 1650px;
+}
+
+.banner-title{
+  position: absolute;
+  top: 120px;
+  left:20%;
+  font-family: "Montserrat", "Arial";
+  font-size: 50px;
+  font-weight: 600;
+  color: #0345fc;
+  
+}
+/*border*/
+.border{
+    border-top: solid 5px black;
+    border-bottom: solid 2px black;
+    border-left: none;
+    border-right: none;
+    
+}
+/*gallery*/
+
+.gallery{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1650px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper img{
+    width: 100%;
+    object-fit: cover; 
+    padding: 5px; 
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .image img{
+        width: 50% ;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .image img{
+        width: 33% ;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .image img{
+        width: 25% ;
+    }
+}
+
+
+
