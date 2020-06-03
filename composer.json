@@ -1,0 +1,13 @@
+{
+    "name": "michaelb/gallery",
+    "description": "gallery with jquery powered lightbox",
+    "authors": [
+        {
+            "name": "michael barreto",
+            "email": "michaelb167212@gmail.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "~1.0"
+    }
+}
